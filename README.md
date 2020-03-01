@@ -29,7 +29,7 @@ Reason for change is that Speak applicaiton won't allow interaction to 3rd party
 
 For installing the module following steps are required to be followed
 
- 1. Go to the [Sitecore Marketplace Package](http://dfd.fh) and clone it.
+ 1. Go to the [Sitecore Marketplace Package](https://github.com/Sitecore-Hackathon/rogueCoders/blob/master/sc.package/SitecoreMarketPlace.zip) and clone it.
  2. Install the Package using Sitecore Package Installation Wizard.
  3. Restart the Sitecore Client.
 
