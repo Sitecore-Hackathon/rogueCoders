@@ -1,0 +1,19 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@using RogueCoders.Foundation.SitecoreExtensions.MostRecommended
+@model RenderingModel
+@{
+  var rendering = Html.Sitecore().Controls().ShowMostRecommended(Model.Rendering);
+
+  var htmlAttributes = rendering.HtmlAttributes;
+}      
+<div @htmlAttributes>
+
+    <h2 data-bind="text:moduleheading" class="module-heading"></h2>
+<ul class="recommended-list">
+    
+</ul>
+
+</div>
+

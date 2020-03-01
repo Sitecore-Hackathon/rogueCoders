@@ -1,0 +1,68 @@
+﻿.search-result-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    margin: 25px auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+}
+
+    .search-result-list li {
+        margin: 22px 25px;
+    }
+
+span.rec-module-heading {
+    margin: 5px 0px;
+    display: block;
+    text-align: center;
+}
+
+img.rec-module-img {
+    display: block;
+    margin:0 auto;
+}
+
+.module-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+.review-section-container{
+    float:left;
+}
+.like {
+    background: url(/sitecore/shell/client/YourApps/SitecoreMarketPlace/Images/like.png) no-repeat 6px 0;
+    text-align: right;
+    height: 20px;
+    padding: 4px 0px 0 28px;
+    line-height: 20px;
+}
+.reviews {
+    background: url(/sitecore/shell/client/YourApps/SitecoreMarketPlace/Images/comment.png) no-repeat 6px 0;
+    text-align: right;
+    height: 20px;
+    padding: 4px 0px 0 28px;
+    line-height: 20px;
+}
+.review-section{
+    margin-top:15px;
+}
+.install-package {
+    width: 100%;
+    margin-top: 10px;
+    padding: 9px;
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid #CCC;
+    background: cornflowerblue;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.like-container{
+    float:right;
+}

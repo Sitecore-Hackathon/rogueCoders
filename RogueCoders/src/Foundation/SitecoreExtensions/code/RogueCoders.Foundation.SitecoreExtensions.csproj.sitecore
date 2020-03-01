@@ -1,0 +1,11 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="https://hackathon2020.sc/" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <File Include="sitecore\shell\client\YourApps\SitecoreMarketPlace\TopDownloaded\TopDownloaded.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="core">{33BC1595-BFE4-448A-94AC-B436BE8C2BB0}</Item>
+  </File>
+  <File Include="sitecore\shell\client\YourApps\SitecoreMarketPlace\SearchResults\SearchResults.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="core">{205ABB84-F78A-4482-961C-16C04BCF1D78}</Item>
+  </File>
+</Project>

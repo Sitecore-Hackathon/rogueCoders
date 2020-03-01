@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{5C2E87BB-2AC5-4561-B142-0F24BA21AB67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{8E1FBB8E-183A-4452-B5EE-9D72B9FA1DC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{9DCC7A1F-632A-4072-8263-11ACA8323CCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreExtensions", "SitecoreExtensions", "{5CC4A8E6-1049-4D1C-A0B5-D0A674CD4E27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RogueCoders.Foundation.SitecoreExtensions", "src\Foundation\SitecoreExtensions\code\RogueCoders.Foundation.SitecoreExtensions.csproj", "{60A0A654-2C9A-451A-90C3-41E31A5B00E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreMarketPlaceAPI", "SitecoreMarketPlaceAPI", "{BE3EF2C5-3FC9-44C8-A7E7-1972D3C85E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RogueCoders.Feature.SitecoreMarketPlaceAPI", "src\Feature\SitecoreMarketPlaceAPI\code\RogueCoders.Feature.SitecoreMarketPlaceAPI.csproj", "{53A9BFCE-3B12-41A2-B6E6-0A46D8C510CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60A0A654-2C9A-451A-90C3-41E31A5B00E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A0A654-2C9A-451A-90C3-41E31A5B00E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A0A654-2C9A-451A-90C3-41E31A5B00E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A0A654-2C9A-451A-90C3-41E31A5B00E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A9BFCE-3B12-41A2-B6E6-0A46D8C510CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A9BFCE-3B12-41A2-B6E6-0A46D8C510CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A9BFCE-3B12-41A2-B6E6-0A46D8C510CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A9BFCE-3B12-41A2-B6E6-0A46D8C510CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CC4A8E6-1049-4D1C-A0B5-D0A674CD4E27} = {8E1FBB8E-183A-4452-B5EE-9D72B9FA1DC3}
+		{60A0A654-2C9A-451A-90C3-41E31A5B00E8} = {5CC4A8E6-1049-4D1C-A0B5-D0A674CD4E27}
+		{BE3EF2C5-3FC9-44C8-A7E7-1972D3C85E36} = {5C2E87BB-2AC5-4561-B142-0F24BA21AB67}
+		{53A9BFCE-3B12-41A2-B6E6-0A46D8C510CC} = {BE3EF2C5-3FC9-44C8-A7E7-1972D3C85E36}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {02306539-F2F5-46F6-81BB-3353D199AE18}
+	EndGlobalSection
+EndGlobal
