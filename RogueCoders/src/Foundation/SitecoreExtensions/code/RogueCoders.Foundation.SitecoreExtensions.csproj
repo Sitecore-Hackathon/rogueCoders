@@ -365,10 +365,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="ControlsExtension\" />
-    <Folder Include="Models\" />
-    <Folder Include="NewFolder1\" />
     <Folder Include="sitecore\shell\client\YourApps\Search\" />
   </ItemGroup>
   <PropertyGroup>
